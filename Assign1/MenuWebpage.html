@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Coffee Menu – Dark Academia</title>
+
+<style>
+    body{
+        margin:0;
+        font-family: Georgia, serif;
+        background:#2b241d; /* dark brown */
+        color:#f0e6d2;       /* parchment */
+    }
+
+    /* Center page area */
+    .wrapper{
+        width:90%;
+        max-width:1100px;
+        margin:auto;
+        padding:40px 0;
+    }
+
+    /* GRID for menu cards */
+    .grid{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap:25px;
+    }
+
+    /* Coffee cards */
+    .card{
+        background:#3a3128;
+        padding:20px;
+        border-radius:12px;
+        box-shadow:0 5px 10px rgba(0,0,0,0.4);
+        border:1px solid #6b5a4a;
+    }
+
+    /* FLEX for title + price */
+    .top{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+        margin-bottom:10px;
+    }
+
+    .top h3{
+        margin:0;
+        color:#f8e9cf;
+    }
+
+    .price{
+        color:#d9a86c;
+        font-weight:bold;
+    }
+
+    p{
+        margin:0;
+        color:#e8dbc4;
+        font-size:14px;
+        line-height:1.5;
+    }
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+    <div class="grid">
+
+        <div class="card">
+            <div class="top">
+                <h3>Cappuccino</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Classic rich coffee blended with warm vintage charm.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Americano</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Pure espresso with water, bold and timeless.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Espresso</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>A strong dark roast full of depth and character.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Macchiato</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Espresso lightly marked with milk foam.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Mocha</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Chocolate-infused espresso with a creamy finish.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Coffee Latte</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Smooth milk layered with a mild espresso blend.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Picollo Latte</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>A small but intense mix of milk and espresso.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Ristretto</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>A more concentrated shot with rich aroma.</p>
+        </div>
+
+        <div class="card">
+            <div class="top">
+                <h3>Affogato</h3>
+                <span class="price">$49</span>
+            </div>
+            <p>Vanilla ice cream drowned in hot espresso.</p>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
